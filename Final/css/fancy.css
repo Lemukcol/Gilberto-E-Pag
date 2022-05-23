@@ -1,0 +1,910 @@
+:root {
+    --color_primario: #ff7300;
+    --color_primario2: #000000;
+    --ligthprim:white;
+    --color_ter:#8b8b8b;
+    --typetitle:font-family: 'Bebas Neue', cursive;
+    --parag_font:font-family: 'Montserrat', sans-serif
+}    
+html {
+    scroll-behavior: smooth;
+}    
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .body{
+      background-color: var(--color_primario);
+      padding: 2em;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      max-width: 1700px;
+
+  }
+
+  .CONTENEDORMADRE{
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      background-color: var(--color_primario);
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: var(--color_ter);
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5em;
+    background-color: #ffae77;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: flex;
+    color: var();
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #eee;
+
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgb(109, 109, 109);
+    background-color: var(--color_ter);
+    border-radius: 2em;
+  }
+  
+  .HeaderContainer {
+    background-color: var(--color_an);
+    display: flex;
+    flex-direction: row;
+    font-size: 85%;
+    justify-content: space-between;
+  }
+
+  .topnav-list {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      background-color: #ff7300;
+      
+  }
+ 
+.topnav-big{
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.Cajita {
+    display: flex;
+    background-color: darkorange; 
+    float: left;
+    max-width: 1567px;
+    padding: 1.5em;
+}
+.Cajita h2 {
+        font-size: 2em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+
+.cajadeTexto {
+
+    padding: 1.3em;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo {
+    background-color: aqua;
+    text-align: center;
+}
+
+.foto1{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    align-content: center;
+
+}
+.foto1 img{
+    border-radius: 100%;
+    width: 400px;
+}
+
+.parag p{
+    text-align: center;
+}
+.listtext a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.segundacaja {
+    background-color: aqua;
+    margin-top: 2em;
+    margin-bottom: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+
+}
+
+.imag2 img {
+    width: 280px;
+}
+
+.grancajados {
+    display: flex;
+    align-content: space-between;
+}
+.cajasecund{
+    margin: 2em;
+    padding: 2em;
+    background-color: var(--color_primario);
+    flex: .5;
+}
+
+.cajasecund p{
+    font-size: .7em;
+}
+
+
+.body {
+  position: relative;
+  height: 100%;
+}
+
+
+
+.body {
+  background: var(--ligthprim);
+  font-family:var(--typetitle);
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: var;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.terceracaja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background-color: var(--color_primario);
+
+}
+.tituloytexto{
+    display: flex;
+    flex-direction: column;
+    margin: .8em;
+}
+
+.titulofotos h2{
+    font-size: 2em;
+    font-family: var(--typetitle);
+    text-align: center;
+}
+
+.textoinv{
+    text-align: center;
+}
+
+.nosotros{
+    display: flex;
+    align-items: center;
+    flex-direction: row nowrap;
+    background-color:var(--color_primario2);
+    justify-content: space-around;
+    padding: 1em;
+    border-radius: 10px;
+    color: var(--ligthprim);
+}
+
+.nosotros img{
+    display: flex;
+    row-gap: 2em;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.BubbleId{
+    text-align: center;
+}
+.BubbleId h3{
+    font-family: var(--color_primario2);
+    font-size: 1em;
+}
+
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+
+
+
+
+
+
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .body{
+            max-width: 480px;
+        }    
+
+        .Cajita{
+            color:rgb(0, 0, 0);
+        }
+        .HeaderContainer {
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .topnav a {
+            font-size:1em ;
+            background-color:var(--color_primario2);
+            height: 50px;
+            padding: auto;
+            border-radius: 2em;
+            color: var(--ligthprim);
+        }
+       
+        .topnav {
+            display: flex;
+            flex-direction: column;
+            padding: .2em;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .topnav-big a {
+            background-color: var(--color_primario2);
+            margin: .2em;
+            color:var(--ligthprim);
+            font-family: var(--typetitle);
+        }
+
+        .Cajita {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            background-color: rgb(173, 173, 173); 
+            max-width: 480px; 
+        }
+
+        .Cajita h2 {
+            font-size: 2em;
+            font-family:var(--typetitle)
+        }
+            
+        
+        .cajadeTexto {
+        
+            padding: 2em;
+            background-color: var(--color_primario);
+        }
+        
+        .foto1{
+            display: flex;
+            padding: .2em;
+            align-items: center;
+            align-content: center;
+        
+        }
+        .foto1 img{            
+            border-radius: 0%;
+            width: 200px;
+        }
+        .listtext a{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 1em;
+        }
+        
+        .segundacaja {
+            background-color: var(--color_primario);
+            margin-top: 2em;
+            margin-bottom: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+        
+        .imag2 img {
+            width: 280px;
+        }
+        
+        .grancajados {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cajasecund{
+            margin: 2em;
+            padding: 2em;
+            background-color:var(--ligthprim);
+            flex: .5;
+        }
+        
+        .cajasecund p{
+            font-size: .7em;
+            flex: .5;
+        }
+        .nosotros img{
+            display: flex;
+            row-gap: 2em;
+            width: 100px;
+            border-radius: 100%;
+        }
+        
+        .BubbleId{
+            text-align: center;
+        }
+        .BubbleId h3{
+            font-family: var(--typetitle);
+            font-size: 1em;
+        }
+        .nosotros img{
+            display: flex;
+            row-gap: 2em;
+            width: 100px;
+            border-radius: 100%;
+        }
+        
+        .BubbleId{
+            text-align: center;
+        }
+        .BubbleId h3{
+            font-family: var(--typetitle);
+            font-size: 1em;
+        }
+        
+  }
+
+  /* segundomediaq */
+
+
+
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .body{
+         max-width: 600px;
+        min-width: 481px;
+    }    
+        .HeaderContainer {
+            background-color: blue;
+            display: flex;
+            flex-direction:column;
+        }
+        
+        .topnav a {
+            font-size:.8em ;
+            background-color: var(--color_primario2);
+            height: 50px;
+            padding: auto;
+            color: var(--ligthprim);
+        }
+       
+        .topnav {
+            display: flex;
+            padding: .2em;
+            margin: .15em;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .topnav-big a {
+            
+            color: var(--ligthprim);
+            margin: 1em;
+    
+        }
+        .topnav-list a{
+            font-size: .7em;
+        }
+
+        .Cajita {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            background-color: var(--color_primario2); 
+            max-width: 600; 
+        
+        }
+        .cajadeTexto {
+            padding: 2em;
+            background-color: var(--ligthprim);
+        }
+        
+        .foto1{
+            display: flex;
+            padding: 2em;
+            align-items: center;
+            align-content: center;
+        
+        }
+        .foto1 img{
+            border-radius: 5%;
+            width: 300px;
+        }
+        .segundacaja {
+            background-color: var(--color_primario);
+            margin-top: 2em;
+            margin-bottom: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+        
+        .imag2 img {
+            width: 425px;
+        }
+        
+        .grancajados {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cajasecund{
+            margin: 2em;
+            padding: 2em;
+            background-color: darkgoldenrod;
+            flex: .5;
+        }
+        
+        .cajasecund p{
+            font-size: .7em;
+            flex: .5;
+        }
+        .nosotros img{
+            display: flex;
+            row-gap: 2em;
+            width: 100px;
+            border-radius: 100%;
+        }
+        
+        .BubbleId{
+            text-align: center;
+        }
+        .BubbleId h3{
+            font-family: var(--typetitle);
+            font-size: 1em;
+        }
+        
+    }
+
+
+
+/* tercermedia*/
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+    .body{
+        max-width: 767px;
+    }    
+    .Cajita{
+        background-color:var(--color_primario);
+    }
+    .HeaderContainer {
+        background-color: var(--ligthprim);
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .topnav a {
+        font-size:.8em ;
+        background-color: var(--color_primario);
+        height: 50px;
+        padding: auto;
+    }
+   
+    .topnav {
+        display: flex;
+        padding: .2em;
+        margin: .15em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .topnav-big a {
+        
+        color: var(--ligthprim);
+        font-family:var(--typetitle);
+        margin: .5em;
+
+    }
+    .topnav-list a{
+        font-size: .8em;
+    }
+    .Cajita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: var(--color_primario2); 
+        max-width: 757; 
+    
+    }
+    .cajadeTexto {
+    
+        padding: 2em;
+        background-color:var(--ligthprim);
+    }
+    
+    .foto1{
+        display: flex;
+        padding: 2em;
+        align-items: center;
+        align-content: center;
+    
+    }
+    .foto1 img{
+        border-radius: 25%;
+        width: 350px;
+    }
+    .segundacaja {
+        background-color: var(--color_primario2);
+        margin-top: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+        border-radius: 2em;
+    }
+    
+    .imag2 img {
+        width: 550px;
+    }
+    
+    .grancajados {
+        display: flex;
+        align-items: center;
+    }
+    .cajasecund{
+        margin: 2em;
+        padding: 2em;
+        background-color:var(--color_primario);
+        flex: .5;
+    }
+    
+    .cajasecund p{
+        font-size: .7em;
+    }
+    .nosotros img{
+        display: flex;
+        row-gap: 2em;
+        width: 200px;
+        border-radius: 100%;
+    }
+    
+    .BubbleId{
+        text-align: center;
+    }
+    .BubbleId h3{
+        font-family: var(--typetitle);
+        font-size: 1em;
+    }
+    
+
+    
+}
+
+/*cuartomedia*/
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .body{
+        max-width:1024px;
+    }
+    
+    .HeaderContainer {
+        background-color:var(--color_primario);
+        display: flex;
+        flex-direction:row;
+    }
+    
+    .topnav a {
+        font-size:1.5em ;
+        background-color:var(--color_primario);
+        height: 2em;
+        padding: auto;
+    }
+   
+    .topnav {
+        display: flex;
+        padding: .2em;
+        margin: .15em;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .topnav-big a {
+        
+        color: var(--color_ter);
+        margin: 1em;
+
+    }
+    .topnav-list a{
+        font-size: .8em;
+
+    }
+    .Cajita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: var(--color_primario2); 
+        max-width: auto; 
+    
+    }
+    .cajadeTexto {
+    
+        padding: 1em;
+        background-color: var(--color_primario);
+    }
+    
+    .foto1{
+        display: flex;
+        padding: 2em;
+        align-items: center;
+        align-content: center;
+    
+    }
+    .foto1 img{
+        border-radius:15%;
+        width: 500px;
+    }
+    .segundacaja {
+        background-color: var(--color_ter);
+        margin-top: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
+    
+    .imag2 img {
+        width: 725px;
+    }
+    
+    .grancajados {
+        display: flex;
+        align-content: space-between;
+    }
+    .cajasecund{
+        margin: 2em;
+        padding: 2em;
+        background-color: var(--color_primario2);
+        flex: .5;
+    }
+    
+    .cajasecund p{
+        font-size: .7em;
+    }
+    
+}
+
+/*quinto media*/
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 2560px) {
+
+    .topnav a {
+        font-size:1.2em ;
+        font-family: var(--typetitle);
+        background-color: var(--color_primario);
+        height: 50px;
+        padding: auto;
+        color: var(--ligthprim);
+    }
+    
+.topnav-list {
+margin-right:1.5em;
+
+}
+.topnav-big{
+    margin-left: 1.5em;
+}
+.CONTENEDORMADRE{
+    border-radius: 3em 1em ;
+}
+
+.HeaderContainer{
+    margin-bottom: 1em;
+    background-color: var(--color_primario2);
+    border-radius:.5em .5em .5em 3em;
+}
+.topnav-big{
+    font-family: var(--ligthprim);
+    font-size: 2em;
+    align-items: center;
+    align-content: center;
+}
+.Cajita {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: var(--color_primario); 
+    max-width: 1500px;
+    border-radius: 2em .5em; 
+
+}
+.cajadeTexto {
+
+    padding: 2em;
+    background-color: var(--ligthprim);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 3em 1em ;
+}
+
+.titulo {
+    background-color:var(--color_primario);
+    border-radius:.5em .5em 1em 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+.titulo h2{
+color: var(--color_primario2);
+}
+.foto1{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    align-content: center;
+
+}
+.foto1 img{
+    border-radius: 100%;
+    width: 400px;
+}
+.segundacaja {
+    background-color:var(--color_primario2);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    border-radius: 1em 2em;
+}
+
+.imag2 img {
+    width: 1000px;
+    border-radius: 2em; ;
+}
+
+.grancajados {
+    display: flex;
+    align-content: space-between;
+}
+.cajasecund{
+    margin: 2em;
+    padding: 2em;
+    background-color:var(--ligthprim);
+    flex: .5;
+    border-radius: 2em .0em 3em 0em;
+
+}
+.cajasecund h2{
+color: var(--ligthprim);
+}
+.cajasecund p{
+    font-size: 1em;
+    
+}
+.terceracaja{
+    display: flex;
+    align-items: center;
+
+    background-color: var(--ligthprim);
+
+}
+.tituloytexto{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin: 2em;
+    background-color:var(--color_primario2);
+}
+.titulofotos {
+    background-color:var(--color_primario);
+}
+.titulofotos h2{
+    font-size: 2em;
+    margin: 2em;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.textoinv{
+    text-align: justify;
+    padding: 2em;
+    color: var(--ligthprim);
+    font-size: 2em;
+}
+.swiper-slide img {
+    display: block;
+    width: 50%;
+    height:auto;
+    object-fit: cover;
+  }
+  
+.nosotros img{
+    display: flex;
+    row-gap: 2em;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.BubbleId{
+    text-align: center;
+}
+.BubbleId h3{
+    font-family: var(--color_primario2);
+    font-size: 1em;
+}
+}
